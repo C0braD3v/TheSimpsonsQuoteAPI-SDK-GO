@@ -19,11 +19,13 @@ func main() {
 		log.Println(err)
 	}
 	fmt.Println(data[0].Quote)
-}```
+}
+```
 
 Data methods:
 
-Quote // The random quote that was fetched
-Image // The image of the character who said the quote
-Character // The character who said the quote
-CharacterDirection // The direction the character was facing
+```
+.Quote // The random quote that was fetched
+.Image // The image of the character who said the quote
+.Character // The character who said the quote
+.CharacterDirection // The direction the character was facing```
