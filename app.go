@@ -8,9 +8,9 @@ import (
 
 type Quote struct {
 	Quote              string `json:"quote"`
-	Charicter          string `json:"charicter"`
+	Character          string `json:"character"`
 	Image              string `json:"image"`
-	CharicterDirection string `json:"charicterDirection"`
+	CharacterDirection string `json:"characterDirection"`
 }
 
 func GetQuotes(count string) ([]Quote, error) {
