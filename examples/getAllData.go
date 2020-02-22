@@ -14,4 +14,4 @@ func main() {
 	fmt.Println(data[0])
 }
 
-// Prints all data from the random quote. i.e: {Facts are meaningless. You could use facts to prove anything that's even remotely true.  https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FHomerSimpson.png?1497567511939 }
+// Prints all data from the random quote. i.e: {Remember the time he ate my goldfish? And you lied and said I never had a goldfish. Then why did I have the bowl, Bart? Why did I have the bowl? Milhouse Van Houten https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FMilhouseVanHouten.png?1497567513002 Right}
