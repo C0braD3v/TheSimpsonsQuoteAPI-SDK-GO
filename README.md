@@ -1,5 +1,5 @@
 # TheSimpsonsQuoteAPI-SDK-GO
-A GO SDK for the SimpsonsQuote API by JLuboff. (https://github.com/JLuboff/TheSimpsonsQuoteAPI)
+A GO SDK for [The SimpsonsQuote API by JLuboff](https://github.com/JLuboff/TheSimpsonsQuoteAPI).
 
 # Usage
 
