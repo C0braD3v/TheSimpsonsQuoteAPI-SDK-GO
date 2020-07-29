@@ -1,5 +1,5 @@
 # TheSimpsonsQuoteAPI-SDK-GO
-An API Wrapper in GoLang for [The SimpsonsQuote API by JLuboff](https://github.com/JLuboff/TheSimpsonsQuoteAPI).
+An API Wrapper in GoLang for [The SimpsonsQuote API](https://github.com/JLuboff/TheSimpsonsQuoteAPI).
 
 # Usage
 
