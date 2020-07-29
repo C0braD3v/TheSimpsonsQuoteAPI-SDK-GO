@@ -21,25 +21,9 @@ func main() {
 	fmt.Println(data[0].Quote)
 }
 ```
-
-Data methods:
+Data Structure:
 
 ```go
-package main
-import (
-	"fmt"
-	"log"
-	simpsons "simpsons/simpsons"
-)
-
-func main() {
-	data, err := simpsons.GetQuotes("0")
-	if err != nil {
-		log.Println(err)
-	}
-	fmt.Println(data[0].Quote)
-}
-```
 simpsons {
 	GetQuotes("<INT>") // Array<{data}>
 }
@@ -50,3 +34,4 @@ data {
 	Character // String<Character>
 	CharacterDirection // String<Left | Right>
 }
+```
