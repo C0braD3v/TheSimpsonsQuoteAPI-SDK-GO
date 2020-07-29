@@ -1,9 +1,9 @@
 # TheSimpsonsQuoteAPI-SDK-GO
-A GO SDK for [The SimpsonsQuote API by JLuboff](https://github.com/JLuboff/TheSimpsonsQuoteAPI).
+An API Wrapper in GoLang for [The SimpsonsQuote API by JLuboff](https://github.com/JLuboff/TheSimpsonsQuoteAPI).
 
 # Usage
 
-`go get https://github.com/C0braD3v/TheSimpsonsQuoteAPI-SDK-GO/src`
+`go get https://github.com/HPaulson/Go-Simpsons-Quotes/src`
 
 ```go
 package main
@@ -24,9 +24,29 @@ func main() {
 
 Data methods:
 
+```go
+package main
+import (
+	"fmt"
+	"log"
+	simpsons "simpsons/simpsons"
+)
+
+func main() {
+	data, err := simpsons.GetQuotes("0")
+	if err != nil {
+		log.Println(err)
+	}
+	fmt.Println(data[0].Quote)
+}
 ```
-.Quote // The random quote that was fetched
-.Image // The image of the character who said the quote
-.Character // The character who said the quote
-.CharacterDirection // The direction the character was facing
-```
+simpsons {
+	GetQuotes("<INT>") // Array<{data}>
+}
+	
+data {
+	Quote // String<Quote>
+	Image // String<IMG_URL>
+	Character // String<Character>
+	CharacterDirection // String<Left | Right>
+}
